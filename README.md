@@ -19,4 +19,4 @@ This package overwrites the expected checkin notification markdown file for Snip
 ```
 Wengage\ExpectedCheckin\Providers\ExpectedCheckinServiceProvider::class
 ```
-8. Run `php artisan vendor:publish -tag expected-checkin --force`
+8. Run `php artisan vendor:publish --tag expected-checkin --force`
