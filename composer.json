@@ -12,11 +12,16 @@
             "Wengage\\ExpectedCheckin\\": "src/"
         }
     },
+    "config": {
+        "sort-packages": true
+    },
     "extra": {
         "laravel": {
             "providers": [
                 "Wengage\\ExpectedCheckin\\Providers\\ExpectedCheckinServiceProvider"
             ]
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
