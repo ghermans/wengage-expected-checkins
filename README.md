@@ -3,7 +3,7 @@ This package overwrites the expected checkin notification markdown file for Snip
 
 ## Install with composer
 1. Run `composer require ghermans/wengage-expected-checkins`
-2. Run `php artisan vendor:publish -tag expected-checkin --force`
+2. Run `php artisan vendor:publish --tag expected-checkin --force`
 
 ## Install without composer
 1. Download the files
