@@ -1,0 +1,22 @@
+{
+    "name": "ghermans/wengage-expected-checkins",
+    "authors": [
+        {
+            "name": "Glenn Hermans",
+            "email": "glenn.hermans@wengage.eu"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Wengage\\ExpectedCheckin\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Wengage\\ExpectedCheckin\\Providers\\ExpectedCheckinServiceProvider"
+            ]
+        }
+    }
+}
