@@ -15,7 +15,7 @@ This package overwrites the expected checkin notification markdown file for Snip
 "Wengage\\ExpectedCheckin\\": "packages/Wengage/ExpectedCheckin/src"
 ```
 6. Run `composer dumpautoload`
-7. Open **config/app.php** and add the following customer service provider
+7. Open **config/app.php** and add the following custom service provider
 ```
 Wengage\ExpectedCheckin\Providers\ExpectedCheckinServiceProvider::class
 ```
